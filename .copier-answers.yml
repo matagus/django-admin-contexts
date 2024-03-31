@@ -1,0 +1,7 @@
+# Changes here will be overwritten by Copier
+_commit: v0.1.0
+_src_path: git@github.com:matagus/django-app-starter.git
+module_name: django_admin_contexts
+project_description: Contexts for Django Admin homepage
+project_name: django-admin-contexts
+secret_key: dmhtw$9o2b6p2wa08okj@&zp$8wb-_1mtman318_u$baq^cx^w
