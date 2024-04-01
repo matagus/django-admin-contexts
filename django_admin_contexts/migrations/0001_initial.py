@@ -8,22 +8,22 @@ class Migration(migrations.Migration):
     initial = True
 
     dependencies = [
-        ('contenttypes', '0002_remove_content_type_name'),
+        ("contenttypes", "0002_remove_content_type_name"),
     ]
 
     operations = [
         migrations.CreateModel(
-            name='AdminContext',
+            name="AdminContext",
             fields=[
-                ('slug', models.CharField(max_length=100, primary_key=True, serialize=False)),
-                ('name', models.CharField(max_length=100)),
-                ('description', models.TextField(blank=True, null=True)),
-                ('created_at', models.DateTimeField(auto_now_add=True)),
-                ('updated_at', models.DateTimeField(auto_now=True)),
-                ('models', models.ManyToManyField(to='contenttypes.contenttype')),
+                ("slug", models.CharField(max_length=100, primary_key=True, serialize=False)),
+                ("name", models.CharField(max_length=100)),
+                ("description", models.TextField(blank=True, null=True)),
+                ("created_at", models.DateTimeField(auto_now_add=True)),
+                ("updated_at", models.DateTimeField(auto_now=True)),
+                ("models", models.ManyToManyField(to="contenttypes.contenttype")),
             ],
             options={
-                'indexes': [models.Index(fields=['name'], name='django_admi_name_ba627c_idx')],
+                "indexes": [models.Index(fields=["name"], name="django_admi_name_ba627c_idx")],
             },
         ),
     ]

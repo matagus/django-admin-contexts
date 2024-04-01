@@ -44,9 +44,10 @@ def filter_by_context(context, app_list):
                 "name": app["name"],
                 "has_module_perms": app["has_module_perms"],
                 "models": [
-                    model for model in app["models"] if model["object_name"].lower()\
-                        in context_app_dict[app["app_label"]]
-                ]
+                    model
+                    for model in app["models"]
+                    if model["object_name"].lower() in context_app_dict[app["app_label"]]
+                ],
             }
             filtered_app_list.append(app_with_filterred_models)
 

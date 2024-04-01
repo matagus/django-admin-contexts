@@ -65,7 +65,7 @@ MIDDLEWARE = [
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
     "debug_toolbar.middleware.DebugToolbarMiddleware",
-    'waffle.middleware.WaffleMiddleware',
+    "waffle.middleware.WaffleMiddleware",
 ]
 
 ROOT_URLCONF = "example_project.urls"
