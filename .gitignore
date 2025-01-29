@@ -67,6 +67,7 @@ tests/.hitch
 # sqlite db
 *.db
 *.db-journal
+*.sqlite3
 
 # celery beat
 celerybeat-schedule.db
