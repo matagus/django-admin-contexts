@@ -1,6 +1,6 @@
 # django-admin-contexts
 
-![Python Compatibility](https://img.shields.io/badge/python-3.9%20%7C%203.10%20%7C%203.11%20%7C%203.12-blue.svg) [![PyPi Version](https://img.shields.io/pypi/v/django-admin-contexts.svg)](https://pypi.python.org/pypi/django-admin-contexts) ![CI badge](https://github.com/matagus/django-admin-contexts/actions/workflows/ci.yml/badge.svg) [![codecov](https://codecov.io/gh/matagus/django-admin-contexts/graph/badge.svg?token=a64SxEDQk0)](https://codecov.io/gh/matagus/django-admin-contexts) [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+![Python Compatibility](https://img.shields.io/badge/python-3.9%20%7C%203.10%20%7C%203.11%20%7C%203.12%20%7C%203.13-blue.svg) [![PyPi Version](https://img.shields.io/pypi/v/django-admin-contexts.svg)](https://pypi.python.org/pypi/django-admin-contexts) ![CI badge](https://github.com/matagus/django-admin-contexts/actions/workflows/ci.yml/badge.svg) [![codecov](https://codecov.io/gh/matagus/django-admin-contexts/graph/badge.svg?token=a64SxEDQk0)](https://codecov.io/gh/matagus/django-admin-contexts) [![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 
 Display only a set of apps and models in the Django Admin homepage, based on the chosen context. This is useful when
 you have a lot of apps and models and you want to focus on a specific set of them.
@@ -64,7 +64,7 @@ Running Tests
 
 `hatch run test:test` will run the tests in every Python + Django versions combination.
 
-`hatch run test.py3.12-5.0:test will run them for python 3.12 and Django 5.1. Please see possible combinations using
+`hatch run test.py3.13-5.2:test` will run them for python 3.13 and Django 5.2. Please see possible combinations using
 `hatch env show` ("test" matrix).
 
 

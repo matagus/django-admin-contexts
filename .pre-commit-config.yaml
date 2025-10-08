@@ -1,10 +1,10 @@
 default_stages: [pre-commit]
 default_language_version:
-  python: python3.12
+  python: python3.13
 
 repos:
   - repo: https://github.com/charliermarsh/ruff-pre-commit
-    rev: "v0.13.2"
+    rev: "v0.14.0"
     hooks:
       - id: ruff
         args: [--fix]
@@ -18,6 +18,7 @@ repos:
           - "--target-version=py310"
           - "--target-version=py311"
           - "--target-version=py312"
+          - "--target-version=py313"
         types: [python]
 
   - repo: https://github.com/pre-commit/pre-commit-hooks
@@ -58,4 +59,4 @@ repos:
     rev: v3.20.0
     hooks:
     - id: pyupgrade
-      args: [--py312]
+      args: [--py313]
