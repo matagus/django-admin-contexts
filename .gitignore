@@ -91,3 +91,6 @@ data/
 # Build files
 dist/
 build/
+
+# mkdocs
+site/

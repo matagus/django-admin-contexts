@@ -38,9 +38,15 @@ dependencies = ["Django>=4.2"]
 
 [project.optional-dependencies]
 dev = ["ipython", "django-extensions", "Werkzeug", "django-debug-toolbar"]
+docs = [
+    "mkdocs",
+    "mkdocs-material",
+    "pygments",
+    "pymdown-extensions",
+]
 
 [project.urls]
-Homepage = "https://github.com/matagus/django-admin-contexts"
+Homepage = "https://matagus.github.io/django-admin-contexts/"
 Issues = "https://github.com/matagus/django-admin-contexts/issues"
 Discussions = "https://github.com/matagus/django-admin-contexts/discussions"
 Repository = "https://github.com/matagus/django-admin-contexts"
@@ -58,6 +64,14 @@ include = ["django_admin_contexts/"]
 
 [tool.hatch.envs.default]
 features = ["dev"]
+
+[tool.hatch.envs.docs]
+dependencies = ["mkdocs", "mkdocs-material", "pygments", "pymdown-extensions"]
+
+[tool.hatch.envs.docs.scripts]
+new = "mkdocs new ."
+build = "mkdocs build {args}"
+serve = "mkdocs serve {args}"
 
 [tool.hatch.envs.project]
 template = "default"
