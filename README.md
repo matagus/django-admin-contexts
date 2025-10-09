@@ -69,7 +69,7 @@ Running Tests
 
 `hatch run test:test` will run the tests in every Python + Django versions combination.
 
-`hatch run test.py3.13-5.2:test` will run them for python 3.13 and Django 5.2. Please see possible combinations using
+`hatch run test.py3.14-5.2:test` will run them for python 3.14 and Django 5.2. Please see possible combinations using
 `hatch env show` ("test" matrix).
 
 
