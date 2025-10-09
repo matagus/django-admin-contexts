@@ -10,7 +10,7 @@
 Display only a set of apps and models in the Django Admin homepage, based on the chosen context. This is useful when
 you have a lot of apps and models and you want to focus on a specific set of them.
 
-![Demo: selecting a context to dsiplay only a subset of models](https://raw.githubusercontent.com/matagus/django-admin-contexts/main/screenshots/demo.gif)
+![Demo: selecting a context to display only a subset of models](https://raw.githubusercontent.com/matagus/django-admin-contexts/main/screenshots/demo.gif)
 
 
 Installation
