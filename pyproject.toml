@@ -41,9 +41,10 @@ dev = ["ipython", "django-extensions", "Werkzeug", "django-debug-toolbar"]
 
 [project.urls]
 Homepage = "https://github.com/matagus/django-admin-contexts"
-Issues = "https://.github.com/matagus/django-admin-contexts/issues"
+Issues = "https://github.com/matagus/django-admin-contexts/issues"
+Discussions = "https://github.com/matagus/django-admin-contexts/discussions"
 Repository = "https://github.com/matagus/django-admin-contexts"
-Changelog = "https://githib.com/matagus/django-admin-contexts/releases"
+Changelog = "https://github.com/matagus/django-admin-contexts/releases"
 Pypi = "https://pypi.org/project/django-admin-contexts"
 
 [tool.hatch.version]

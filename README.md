@@ -10,7 +10,7 @@
 Display only a set of apps and models in the Django Admin homepage, based on the chosen context. This is useful when
 you have a lot of apps and models and you want to focus on a specific set of them.
 
-![Demo: selecting a context to dsiplay only a subset of models](https://raw.githubusercontent.com/matagus/django-admin-contexts/main/screenshots/demo.gif)
+![Demo: selecting a context to display only a subset of models](https://raw.githubusercontent.com/matagus/django-admin-contexts/main/screenshots/demo.gif)
 
 
 Installation
@@ -57,21 +57,46 @@ or more models.
 Then, you can see the contexts in the Django Admin homepage.
 
 
+Running Tests
+=============
+
+**Prerequisites:** Install Hatch if not already installed: `pip install hatch`
+
+**List available test environments:**
+```bash
+hatch env show test
+```
+
+**Run all tests (all Python + Django combinations):**
+```bash
+hatch run test:test
+```
+
+**Run tests for specific Python/Django version:**
+```bash
+hatch run test.py3.14-5.2:test  # Python 3.14 + Django 5.2
+hatch run test.py3.12-5.1:test  # Python 3.12 + Django 5.1
+```
+
+**Run specific test file:**
+```bash
+hatch run test.py3.12-5.2:test tests.test_models
+```
+
+**Coverage:**
+```bash
+hatch run test:cov  # Run tests with coverage report
+```
+
+**Troubleshooting:** If you encounter environment issues, clean and rebuild: `hatch env prune`
+
+
 Contributing
 ============
 
 Contributions are welcome! ❤️
 
 Please read [Contributing.md](CONTRIBUTING.md) for detailed instructions on how to help.
-
-Running Tests
--------------
-
-`hatch run test:test` will run the tests in every Python + Django versions combination.
-
-`hatch run test.py3.14-5.2:test` will run them for python 3.14 and Django 5.2. Please see possible combinations using
-`hatch env show` ("test" matrix).
-
 
 License
 =======
