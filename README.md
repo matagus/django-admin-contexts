@@ -1,7 +1,7 @@
 # django-admin-contexts
 
 ![Python Compatibility](https://img.shields.io/badge/python-3.9%20%7C%203.10%20%7C%203.11%20%7C%203.12%20%7C%203.13-blue.svg)
-![Django Compatibility](https://img.shields.io/badge/django-4.0%20|4.1%20|4.2%20|%205.0%20|%205.1%20|%205.2-%2344B78B?labelColor=%23092E20)
+![Django Compatibility](https://img.shields.io/badge/django-4.2%20|%205.0%20|%205.1%20|%205.2-%2344B78B?labelColor=%23092E20)
 [![PyPi Version](https://img.shields.io/pypi/v/django-admin-contexts.svg)](https://pypi.python.org/pypi/django-admin-contexts)
 ![CI badge](https://github.com/matagus/django-admin-contexts/actions/workflows/ci.yml/badge.svg)
 [![codecov](https://codecov.io/gh/matagus/django-admin-contexts/graph/badge.svg?token=a64SxEDQk0)](https://codecov.io/gh/matagus/django-admin-contexts)
