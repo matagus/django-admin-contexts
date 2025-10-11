@@ -77,7 +77,7 @@ hatch run test.py3.12-5.1:test  # Python 3.12 + Django 5.1
 
 **Run specific test file:**
 ```bash
-hatch run test.py3.12-5.2:test tests.test_models
+hatch run test.py3.14-5.2:test tests.test_models
 ```
 
 **Coverage:**
