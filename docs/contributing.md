@@ -38,7 +38,7 @@ Visit http://127.0.0.1:8000/admin/ to test the app with a populated admin.
 hatch run test:test
 
 # Specific version
-hatch run test.py3.12-5.2:test
+hatch run test.py3.14-5.2:test
 
 # With coverage
 hatch run test:cov
