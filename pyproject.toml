@@ -118,7 +118,7 @@ django = ["6.0"]
 python = ["3.12", "3.13", "3.14"]
 
 [tool.hatch.envs.test]
-dependencies = ["coverage[toml]", "django~={matrix:django}.0"]
+dependencies = ["coverage[toml]", "django~={matrix:django}.0", "virtualenv<20.25"]
 
 [tool.hatch.envs.test.scripts]
 test = "python -m django test --settings tests.settings"
