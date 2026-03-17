@@ -19,7 +19,7 @@
       
       
       <link rel="icon" href="assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.5">
     
     
       
@@ -563,7 +563,7 @@
 
 <h1 id="getting-started-with-django-admin-contexts">Getting started with django-admin-contexts<a class="headerlink" href="#getting-started-with-django-admin-contexts" title="Permanent link">&para;</a></h1>
 <p><img alt="Python Compatibility" src="https://img.shields.io/badge/python-3.9%20%7C%203.10%20%7C%203.11%20%7C%203.12%20%7C%203.13%20%7C%203.14-blue.svg" />
-<img alt="Django Compatibility" src="https://img.shields.io/badge/django-4.2%20|%205.0%20|%205.1%20|%205.2-%2344B78B?labelColor=%23092E20" />
+<img alt="Django Compatibility" src="https://img.shields.io/badge/django-4.2%20|%205.0%20|%205.1%20|%205.2%20|%206.0-%2344B78B?labelColor=%23092E20" />
 <a href="https://pypi.python.org/pypi/django-admin-contexts"><img alt="PyPi Version" src="https://img.shields.io/pypi/v/django-admin-contexts.svg" /></a>
 <img alt="CI badge" src="https://github.com/matagus/django-admin-contexts/actions/workflows/ci.yml/badge.svg" />
 <a href="https://codecov.io/gh/matagus/django-admin-contexts"><img alt="codecov" src="https://codecov.io/gh/matagus/django-admin-contexts/graph/badge.svg?token=a64SxEDQk0" /></a>
@@ -606,11 +606,11 @@ or more models.</p>
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>hatch<span class="w"> </span>run<span class="w"> </span>test:test
 </span></code></pre></div></p>
 <p><strong>Run tests for specific Python/Django version:</strong>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>hatch<span class="w"> </span>run<span class="w"> </span>test.py3.14-5.2:test<span class="w">  </span><span class="c1"># Python 3.14 + Django 5.2</span>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>hatch<span class="w"> </span>run<span class="w"> </span>test.py3.14-6.0:test<span class="w">  </span><span class="c1"># Python 3.14 + Django 6.0</span>
 </span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>hatch<span class="w"> </span>run<span class="w"> </span>test.py3.12-5.1:test<span class="w">  </span><span class="c1"># Python 3.12 + Django 5.1</span>
 </span></code></pre></div></p>
 <p><strong>Run specific test file:</strong>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>hatch<span class="w"> </span>run<span class="w"> </span>test.py3.14-5.2:test<span class="w"> </span>tests.test_models
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>hatch<span class="w"> </span>run<span class="w"> </span>test.py3.14-6.0:test<span class="w"> </span>tests.test_models
 </span></code></pre></div></p>
 <p><strong>Coverage:</strong>
 <div class="language-bash highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>hatch<span class="w"> </span>run<span class="w"> </span>test:cov<span class="w">  </span><span class="c1"># Run tests with coverage report</span>
