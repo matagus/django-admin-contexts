@@ -1,7 +1,7 @@
 # Getting started with django-admin-contexts
 
 ![Python Compatibility](https://img.shields.io/badge/python-3.9%20%7C%203.10%20%7C%203.11%20%7C%203.12%20%7C%203.13%20%7C%203.14-blue.svg)
-![Django Compatibility](https://img.shields.io/badge/django-4.2%20|%205.0%20|%205.1%20|%205.2-%2344B78B?labelColor=%23092E20)
+![Django Compatibility](https://img.shields.io/badge/django-4.2%20|%205.0%20|%205.1%20|%205.2%20|%206.0-%2344B78B?labelColor=%23092E20)
 [![PyPi Version](https://img.shields.io/pypi/v/django-admin-contexts.svg)](https://pypi.python.org/pypi/django-admin-contexts)
 ![CI badge](https://github.com/matagus/django-admin-contexts/actions/workflows/ci.yml/badge.svg)
 [![codecov](https://codecov.io/gh/matagus/django-admin-contexts/graph/badge.svg?token=a64SxEDQk0)](https://codecov.io/gh/matagus/django-admin-contexts)
@@ -71,13 +71,13 @@ hatch run test:test
 
 **Run tests for specific Python/Django version:**
 ```bash
-hatch run test.py3.14-5.2:test  # Python 3.14 + Django 5.2
+hatch run test.py3.14-6.0:test  # Python 3.14 + Django 6.0
 hatch run test.py3.12-5.1:test  # Python 3.12 + Django 5.1
 ```
 
 **Run specific test file:**
 ```bash
-hatch run test.py3.14-5.2:test tests.test_models
+hatch run test.py3.14-6.0:test tests.test_models
 ```
 
 **Coverage:**
