@@ -5,7 +5,6 @@ from django.urls import reverse
 
 from django_admin_contexts.forms import AdminContextForm
 
-
 register = template.Library()
 
 
